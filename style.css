@@ -64,16 +64,18 @@ header {
 
 header nav {
   width: 70%;
-  padding-top: 3vh;
-  margin: 0 auto 15vh;
   font-size: 0;
+}
+
+header nav:nth-child(1) {
+  padding-top: 3vh;
+  margin: 0 auto 15vh auto;
 }
 
 header nav:nth-child(1) .logo {
   width: 48%;
   color: white;
   text-decoration: none;
-  font-size: 2.5rem;
   font-weight: 700;
   display: inline-block;
   font-size: 1.875rem;
@@ -101,13 +103,12 @@ header nav:nth-child(1) ul li:last-child {
 }
 
 header nav:nth-child(1) ul li a {
-  font-size: 0.875rem;
+  font-size: calc(100% + 0.4vw);
   color: white;
 }
 
 header nav:nth-child(1) ul li a:hover {
   color: #fce38a;
-  cursor: pointer;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-decoration-thickness: inherit;
@@ -115,19 +116,19 @@ header nav:nth-child(1) ul li a:hover {
 }
 
 header h2 {
-  font-size: 72px;
+  font-size: calc(100% + 3.8vw);
   color: white;
   text-align: center;
   font-family: "Kaushan Script";
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
 }
 
 header h1 {
-  font-size: 150px;
+  font-size: calc(100% + 8vw);
   font-weight: 700;
-  line-height: 140px;
+  line-height: 0.9;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 5vh;
   text-align: center;
 }
 
@@ -137,24 +138,24 @@ header h1::after {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 60px;
+  width: 6vh;
   margin: 0 auto;
-  height: 4px;
+  height: 0.4vh;
   background: white;
 }
 
-header button {
-  margin: 50px auto 0;
+header #btn {
+  margin: 5vh auto 15vh;
   background: none;
   border: white 3px solid;
   font-weight: 700;
   color: white;
   width: 161px;
-  padding: 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  padding: 1.5vh;
   display: block;
   cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 0.8rem;
 }
 
 header nav:last-child {
@@ -163,20 +164,18 @@ header nav:last-child {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: 0;
-  margin: 15vh auto 0 auto;
-  padding-top: 0;
 }
 
 header nav:last-child a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 25%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
   color: white;
   opacity: 70%;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 header nav:last-child a img {
@@ -203,26 +202,16 @@ header nav:last-child a:hover img:first-child {
   display: block;
 }
 
-header nav:last-child a:hover img:last-child {
-  background-color: #f38181;
-}
-
 header nav:last-child a:hover img:nth-child(2) {
   display: none;
 }
 
 header nav:last-child a h3 {
-  margin: 25px 0 25px 0;
+  margin: 2vh 0 2vh 0;
 }
 
 header nav:last-child a span {
   font-weight: 700;
-}
-
-@media screen and (min-width: 1364px) {
-  header li a {
-    font-size: 0.2rem;
-  }
 }
 
 .section1 .wrapper {
@@ -320,7 +309,8 @@ header nav:last-child a span {
   border-right: 1px solid white;
 }
 
-.section3 .wrapper .top > a, .section3 .wrapper .bottom > a {
+.section3 .wrapper .top > a,
+.section3 .wrapper .bottom > a {
   width: 33.3333%;
   display: inline-block;
   font-size: 0;
@@ -328,7 +318,8 @@ header nav:last-child a span {
   text-align: left;
 }
 
-.section3 .wrapper .top > a h2, .section3 .wrapper .bottom > a h2 {
+.section3 .wrapper .top > a h2,
+.section3 .wrapper .bottom > a h2 {
   font-family: "Montserrat";
   font-size: 14px;
   color: #333333;
@@ -336,28 +327,32 @@ header nav:last-child a span {
   margin-bottom: 20px;
 }
 
-.section3 .wrapper .top > a p, .section3 .wrapper .bottom > a p {
+.section3 .wrapper .top > a p,
+.section3 .wrapper .bottom > a p {
   font-family: "Roboto", sans-serif;
   line-height: 24px;
   font-size: 15px;
   color: #999999;
 }
 
-.section3 .wrapper .top > a div:first-child, .section3 .wrapper .bottom > a div:first-child {
+.section3 .wrapper .top > a div:first-child,
+.section3 .wrapper .bottom > a div:first-child {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
   width: 15%;
 }
 
-.section3 .wrapper .top > a div:first-child img, .section3 .wrapper .bottom > a div:first-child img {
+.section3 .wrapper .top > a div:first-child img,
+.section3 .wrapper .bottom > a div:first-child img {
   padding-right: 15px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.section3 .wrapper .top > a div:last-child, .section3 .wrapper .bottom > a div:last-child {
+.section3 .wrapper .top > a div:last-child,
+.section3 .wrapper .bottom > a div:last-child {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -422,7 +417,10 @@ header nav:last-child a span {
   font-size: 0;
 }
 
-.section5 .wrapper .container .right > div > div, .section5 .wrapper .container .right > div h4, .section5 .wrapper .container .right > div p, .section5 .wrapper .container .right > div a {
+.section5 .wrapper .container .right > div > div,
+.section5 .wrapper .container .right > div h4,
+.section5 .wrapper .container .right > div p,
+.section5 .wrapper .container .right > div a {
   display: inline-block;
   text-align: left;
   -webkit-box-sizing: border-box;
@@ -487,7 +485,8 @@ header nav:last-child a span {
           transform: rotate(90deg);
 }
 
-.section6 .wrapper div, .section6 .wrapper a {
+.section6 .wrapper div,
+.section6 .wrapper a {
   display: inline-block;
   font-size: 24px;
   line-height: 36px;
@@ -535,13 +534,10 @@ header nav:last-child a span {
           transform: rotate(270deg);
 }
 
-.section7 .wrapper > .team {
-  font-size: 0;
-  margin: 0 auto;
-}
-
-.section7 .wrapper > .team .left, .section7 .wrapper > .team .center, .section7 .wrapper > .team .right {
-  width: auto;
+.section7 .wrapper > .team .left,
+.section7 .wrapper > .team .center,
+.section7 .wrapper > .team .right {
+  width: 32%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -549,14 +545,18 @@ header nav:last-child a span {
   text-align: center;
 }
 
-.section7 .wrapper > .team .left h4, .section7 .wrapper > .team .center h4, .section7 .wrapper > .team .right h4 {
+.section7 .wrapper > .team .left h4,
+.section7 .wrapper > .team .center h4,
+.section7 .wrapper > .team .right h4 {
   margin: 30px 0 15px 0;
   font-size: 14px;
   font-family: "Montserrat";
   color: #333333;
 }
 
-.section7 .wrapper > .team .left h5, .section7 .wrapper > .team .center h5, .section7 .wrapper > .team .right h5 {
+.section7 .wrapper > .team .left h5,
+.section7 .wrapper > .team .center h5,
+.section7 .wrapper > .team .right h5 {
   font-size: 15px;
   color: #999999;
   font-family: "Roboto", sans-serif;
@@ -564,21 +564,34 @@ header nav:last-child a span {
   margin-bottom: 116px;
 }
 
-.section7 .wrapper > .team .left .photo, .section7 .wrapper > .team .center .photo, .section7 .wrapper > .team .right .photo {
+.section7 .wrapper > .team .left .photo,
+.section7 .wrapper > .team .center .photo,
+.section7 .wrapper > .team .right .photo {
   position: relative;
   display: inline-block;
   max-width: 100%;
   height: auto;
 }
 
-.section7 .wrapper > .team .left .photo:hover, .section7 .wrapper > .team .center .photo:hover, .section7 .wrapper > .team .right .photo:hover {
+.section7 .wrapper > .team .left .photo > img,
+.section7 .wrapper > .team .center .photo > img,
+.section7 .wrapper > .team .right .photo > img {
+  width: 100%;
+  height: auto;
+}
+
+.section7 .wrapper > .team .left .photo:hover,
+.section7 .wrapper > .team .center .photo:hover,
+.section7 .wrapper > .team .right .photo:hover {
   -webkit-box-shadow: 10px 10px #95e1d3;
           box-shadow: 10px 10px #95e1d3;
   bottom: 10px;
   right: 10px;
 }
 
-.section7 .wrapper > .team .left .photo div, .section7 .wrapper > .team .center .photo div, .section7 .wrapper > .team .right .photo div {
+.section7 .wrapper > .team .left .photo div,
+.section7 .wrapper > .team .center .photo div,
+.section7 .wrapper > .team .right .photo div {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da));
   background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
   min-width: 100%;
@@ -591,17 +604,29 @@ header nav:last-child a span {
           transform: translate(-50%, -50%);
 }
 
-.section7 .wrapper > .team .left .photo div img, .section7 .wrapper > .team .center .photo div img, .section7 .wrapper > .team .right .photo div img {
+.section7 .wrapper > .team .left .photo div img,
+.section7 .wrapper > .team .center .photo div img,
+.section7 .wrapper > .team .right .photo div img {
   padding-top: 50%;
 }
 
-.section7 .wrapper > .team .left .photo:hover div, .section7 .wrapper > .team .center .photo:hover div, .section7 .wrapper > .team .right .photo:hover div {
+.section7 .wrapper > .team .left .photo:hover div,
+.section7 .wrapper > .team .center .photo:hover div,
+.section7 .wrapper > .team .right .photo:hover div {
   display: block;
+}
+
+.section7 .wrapper > .team .right {
+  margin-right: 0;
 }
 
 .full {
   background-color: #f8f8f8;
-  padding: 60px;
+}
+
+.full .wrapper img {
+  margin: 0 auto;
+  width: 90%;
 }
 
 .section9 {
@@ -709,7 +734,8 @@ header nav:last-child a span {
           transform: rotate(90deg);
 }
 
-.section10 .wrapper div, .section10 .wrapper a {
+.section10 .wrapper div,
+.section10 .wrapper a {
   display: inline-block;
   font-size: 24px;
   line-height: 36px;
@@ -771,36 +797,48 @@ header nav:last-child a span {
   margin-top: 90px;
 }
 
-.section11 .top, .section11 .bottom {
+.section11 .top,
+.section11 .bottom {
   text-align: left;
   font-size: 0;
   margin-bottom: 5rem;
 }
 
-.section11 .top .first, .section11 .top .second, .section11 .bottom .first, .section11 .bottom .second {
+.section11 .top .first,
+.section11 .top .second,
+.section11 .bottom .first,
+.section11 .bottom .second {
   display: inline-block;
   width: 50%;
 }
 
-.section11 .top .first :first-child, .section11 .top .second :first-child, .section11 .bottom .first :first-child, .section11 .bottom .second :first-child {
+.section11 .top .first :first-child,
+.section11 .top .second :first-child,
+.section11 .bottom .first :first-child,
+.section11 .bottom .second :first-child {
   width: 30%;
   display: inline-block;
   vertical-align: top;
 }
 
-.section11 .top .first :last-child, .section11 .top .second :last-child, .section11 .bottom .first :last-child, .section11 .bottom .second :last-child {
+.section11 .top .first :last-child,
+.section11 .top .second :last-child,
+.section11 .bottom .first :last-child,
+.section11 .bottom .second :last-child {
   width: 70%;
   display: inline-block;
 }
 
-.section11 .top h4, .section11 .bottom h4 {
+.section11 .top h4,
+.section11 .bottom h4 {
   font-family: "Montserrat";
   color: #333333;
   font-size: 14px;
   margin-bottom: 0.9rem;
 }
 
-.section11 .top h5, .section11 .bottom h5 {
+.section11 .top h5,
+.section11 .bottom h5 {
   font-size: 15px;
   color: #333333;
   font-family: "Roboto", sans-serif;
@@ -810,7 +848,8 @@ header nav:last-child a span {
   margin-bottom: 1rem;
 }
 
-.section11 .top h5::after, .section11 .bottom h5::after {
+.section11 .top h5::after,
+.section11 .bottom h5::after {
   content: '';
   position: absolute;
   left: 0;
@@ -821,29 +860,37 @@ header nav:last-child a span {
   background-color: #f38181;
 }
 
-.section11 .top p, .section11 .bottom p {
+.section11 .top p,
+.section11 .bottom p {
   font-size: 1rem;
   color: #999999;
   line-height: 1.5rem;
 }
 
-.section12 .articles {
+.section12 {
   font-size: 0;
 }
 
-.section12 .articles article {
+.section12 article {
   display: inline-block;
   width: 30%;
   text-align: left;
-  margin-right: 3%;
+  margin-right: 2%;
   margin-bottom: 7.3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.section12 .articles article :last-child {
+.section12 article :last-child {
   margin-right: 0;
 }
 
-.section12 .articles article > a h3 {
+.section12 article > a .photo img {
+  width: 100%;
+  height: auto;
+}
+
+.section12 article > a h3 {
   font-size: 0.88rem;
   font-family: "Montserrat";
   color: #333333;
@@ -852,7 +899,7 @@ header nav:last-child a span {
   margin: 1.15rem 0 1.15rem 0;
 }
 
-.section12 .articles article > a > p {
+.section12 article > a > p {
   font-size: 0.95rem;
   line-height: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -862,14 +909,17 @@ header nav:last-child a span {
   margin-bottom: 15px;
 }
 
-.section12 .articles div:last-child a img {
+.section12 div:last-child a {
+  margin-right: 1rem;
+}
+
+.section12 div:last-child a img {
   display: inline-block;
 }
 
-.section12 .articles div:last-child a p {
+.section12 div:last-child a p {
   font-size: 0.95rem;
   display: inline-block;
-  width: 20%;
   margin-left: 0.3rem;
   font-size: 0.95rem;
   font-family: "Roboto", sans-serif;
