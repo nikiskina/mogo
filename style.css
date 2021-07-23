@@ -1,0 +1,1355 @@
+body .wrapper {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+
+body .wrapper > h2 {
+  font-family: "Kaushan Script";
+  margin: 90px 0 25px;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+body .wrapper > h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 40px;
+  color: #333333;
+}
+
+body .wrapper > h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  height: 4px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+body .wrapper > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 5.625rem;
+  color: #999999;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  cursor: pointer;
+}
+
+header {
+  font-family: "Montserrat";
+  color: white;
+  background-image: url("images/eagle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 0;
+  height: 100vh;
+}
+
+header nav {
+  width: 70%;
+  font-size: 0;
+}
+
+header nav:nth-child(1) {
+  padding-top: 3vh;
+  margin: 0 auto 15vh auto;
+}
+
+header nav:nth-child(1) .logo {
+  width: 40%;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.875rem;
+}
+
+header nav:nth-child(1) .menu {
+  display: none;
+}
+
+header nav:nth-child(1) .menu img {
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+header nav:nth-child(1) ul {
+  width: 60%;
+  font-size: 0;
+  display: inline-block;
+}
+
+header nav:nth-child(1) ul li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  text-decoration-thickness: 20%;
+  margin-right: 0.33%;
+  width: 14%;
+}
+
+header nav:nth-child(1) ul li:last-child {
+  margin-right: 0;
+  width: 5%;
+}
+
+header nav:nth-child(1) ul li a {
+  font-size: 0.875rem;
+  color: white;
+}
+
+header nav:nth-child(1) ul li a:hover {
+  color: #fce38a;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: inherit;
+  text-underline-position: under;
+}
+
+header h2 {
+  font-size: calc(100% + 3.8vw);
+  color: white;
+  text-align: center;
+  font-family: "Kaushan Script";
+  margin-bottom: 4vh;
+}
+
+header h1 {
+  font-size: calc(100% + 8vw);
+  font-weight: 700;
+  line-height: 0.9;
+  position: relative;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+header h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 6vh;
+  margin: 0 auto;
+  height: 0.4vh;
+  background: white;
+}
+
+header #btn {
+  margin: 5vh auto 15vh;
+  background: none;
+  border: white 3px solid;
+  font-weight: 700;
+  color: white;
+  width: 161px;
+  padding: 1.5vh;
+  display: block;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+}
+
+header nav:last-child {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+header nav:last-child a {
+  display: inline-block;
+  font-size: 1.25rem;
+  width: 23%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  opacity: 70%;
+  margin-left: 2%;
+}
+
+header nav:last-child a img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  height: auto;
+}
+
+header nav:last-child a img:first-child {
+  display: none;
+}
+
+header nav:last-child a img:last-child {
+  display: block;
+}
+
+header nav:last-child a:hover {
+  opacity: 100%;
+}
+
+header nav:last-child a:hover img:first-child {
+  display: block;
+}
+
+header nav:last-child a:hover img:nth-child(2) {
+  display: none;
+}
+
+header nav:last-child a h3 {
+  margin: 2vh 0 2vh 0;
+  font-size: 1.25rem;
+}
+
+header nav:last-child a span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+header nav:last-child a:nth-child(1) {
+  margin-left: 0;
+}
+
+.section1 .wrapper {
+  margin-bottom: 6.25rem;
+}
+
+.section1 .wrapper a {
+  display: inline-block;
+  width: 32%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  margin-right: 2%;
+  position: relative;
+}
+
+.section1 .wrapper a:hover .team {
+  display: block;
+}
+
+.section1 .wrapper a:last-child {
+  margin-right: 0;
+}
+
+.section1 .wrapper a > .team {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da));
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.section1 .wrapper a > .team > img {
+  margin-top: 25%;
+  width: 10%;
+  height: auto;
+}
+
+.section1 .wrapper a > .team h3 {
+  font-size: 1.125rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+}
+
+.section1 .wrapper a > img {
+  width: 100%;
+  height: auto;
+}
+
+.section2 {
+  background-color: #95e1d3;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.section2 .wrapper {
+  display: table;
+}
+
+.section2 .wrapper h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section2 .wrapper p {
+  color: white;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.section2 .wrapper a {
+  display: table-cell;
+  border-left: 1px solid white;
+  width: 20%;
+  padding: 5rem 1.875rem;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+.section2 .wrapper a:last-child {
+  border-right: 1px solid white;
+}
+
+.section3 .wrapper .top > a,
+.section3 .wrapper .bottom > a {
+  width: 33.3333%;
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+  text-align: left;
+}
+
+.section3 .wrapper .top > a h2,
+.section3 .wrapper .bottom > a h2 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.section3 .wrapper .top > a p,
+.section3 .wrapper .bottom > a p {
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.section3 .wrapper .top > a div:first-child,
+.section3 .wrapper .bottom > a div:first-child {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  width: 15%;
+}
+
+.section3 .wrapper .top > a div:first-child img,
+.section3 .wrapper .bottom > a div:first-child img {
+  padding-right: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section3 .wrapper .top > a div:last-child,
+.section3 .wrapper .bottom > a div:last-child {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  width: 85%;
+  padding-right: 70px;
+}
+
+.section3 .top {
+  border-bottom: solid 1px #e5e5e5;
+  padding-bottom: 50px;
+  margin-top: 60px;
+}
+
+.section3 .bottom {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.section4 {
+  padding-top: 10px;
+  background-image: url("images/layer_mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4 .wrapper img {
+  position: relative;
+  bottom: -90px;
+  width: 100%;
+  height: auto;
+}
+
+.section5 {
+  margin-bottom: 108px;
+}
+
+.section5 .wrapper .container {
+  font-size: 0;
+  height: 400px;
+}
+
+.section5 .wrapper .container > .left {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+  vertical-align: top;
+}
+
+.section5 .wrapper .container > .left img {
+  width: 100%;
+  height: auto;
+}
+
+.section5 .wrapper .container .right {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+}
+
+.section5 .wrapper .container .right > div {
+  border: solid 1px #e5e5e5;
+  font-family: "Montserrat";
+  color: #333333;
+  font-size: 0;
+}
+
+.section5 .wrapper .container .right > div > div,
+.section5 .wrapper .container .right > div h4,
+.section5 .wrapper .container .right > div p,
+.section5 .wrapper .container .right > div a {
+  display: inline-block;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.section5 .wrapper .container .right > div > div {
+  width: 10%;
+  padding: 18px;
+}
+
+.section5 .wrapper .container .right > div:nth-child(4) {
+  margin-top: 10px;
+}
+
+.section5 .wrapper .container .right h4 {
+  width: 80%;
+  font-size: 14px;
+}
+
+.section5 .wrapper .container .right .scroll {
+  margin-bottom: 10px;
+}
+
+.section5 .wrapper .container .right .scroll p {
+  font-size: 15px;
+  color: #999999;
+  line-height: 24px;
+  display: block;
+  width: auto;
+  overflow: auto;
+  height: 6em;
+  margin: 20px;
+}
+
+.section5 .wrapper .container .right .scroll p::-webkit-scrollbar {
+  width: 5px;
+  height: 180px;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+}
+
+.section5 .wrapper .container .right .scroll p::-webkit-scrollbar-thumb {
+  background: #95e1d3;
+  border-radius: 2px;
+  border-left: none;
+  border-right: none;
+}
+
+.section6 {
+  background-color: #f8f8f8;
+  padding: 70px 0;
+}
+
+.section6 .wrapper > .first {
+  width: auto;
+}
+
+.section6 .wrapper > .first > img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.section6 .wrapper div,
+.section6 .wrapper a {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 44px;
+}
+
+.section6 .wrapper .second {
+  width: auto;
+  border: #95e1d3 solid 3px;
+  padding: 44px;
+}
+
+.section6 .wrapper .third {
+  width: 60%;
+}
+
+.section6 .wrapper .third > h6 {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  color: #333333;
+  font-style: normal;
+  position: relative;
+  padding-left: 70px;
+}
+
+.section6 .wrapper .third > h6::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.section6 .wrapper .fourth {
+  width: auto;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.section7 .wrapper > .team .left,
+.section7 .wrapper > .team .center,
+.section7 .wrapper > .team .right {
+  width: 32%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.section7 .wrapper > .team .left h4,
+.section7 .wrapper > .team .center h4,
+.section7 .wrapper > .team .right h4 {
+  margin: 30px 0 15px 0;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+}
+
+.section7 .wrapper > .team .left h5,
+.section7 .wrapper > .team .center h5,
+.section7 .wrapper > .team .right h5 {
+  font-size: 15px;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-bottom: 116px;
+}
+
+.section7 .wrapper > .team .left .photo,
+.section7 .wrapper > .team .center .photo,
+.section7 .wrapper > .team .right .photo {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section7 .wrapper > .team .left .photo > img,
+.section7 .wrapper > .team .center .photo > img,
+.section7 .wrapper > .team .right .photo > img {
+  width: 100%;
+  height: auto;
+}
+
+.section7 .wrapper > .team .left .photo:hover,
+.section7 .wrapper > .team .center .photo:hover,
+.section7 .wrapper > .team .right .photo:hover {
+  -webkit-box-shadow: 10px 10px #95e1d3;
+          box-shadow: 10px 10px #95e1d3;
+  bottom: 10px;
+  right: 10px;
+}
+
+.section7 .wrapper > .team .left .photo div,
+.section7 .wrapper > .team .center .photo div,
+.section7 .wrapper > .team .right .photo div {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da));
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+  min-width: 100%;
+  min-height: 100%;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section7 .wrapper > .team .left .photo div img,
+.section7 .wrapper > .team .center .photo div img,
+.section7 .wrapper > .team .right .photo div img {
+  padding-top: 50%;
+}
+
+.section7 .wrapper > .team .left .photo:hover div,
+.section7 .wrapper > .team .center .photo:hover div,
+.section7 .wrapper > .team .right .photo:hover div {
+  display: block;
+}
+
+.section7 .wrapper > .team .right {
+  margin-right: 0;
+}
+
+.full {
+  background-color: #f8f8f8;
+}
+
+.full .wrapper img {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.section9 {
+  font-size: 0;
+  margin-bottom: 90px;
+}
+
+.section9 > div {
+  display: inline-block;
+  width: 25%;
+}
+
+.section9 > div > a {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  padding-top: 81%;
+  height: 0;
+  position: relative;
+}
+
+.section9 > div > a > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section9 .first :first-child {
+  background-image: url("images/surf.jpg");
+}
+
+.section9 .first :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/surf.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/surf.jpg");
+}
+
+.section9 .first :last-child {
+  background-image: url("images/bridge.jpg");
+}
+
+.section9 .first :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/bridge.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/bridge.jpg");
+}
+
+.section9 .second :first-child {
+  background-image: url("images/architecture.jpg");
+}
+
+.section9 .second :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/architecture.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/architecture.jpg");
+}
+
+.section9 .second :last-child {
+  background-image: url("images/architecture_2.jpg");
+}
+
+.section9 .second :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/architecture_2.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/architecture_2.jpg");
+}
+
+.section9 .third > a {
+  background-image: url("images/sea.jpg");
+  padding-top: 162%;
+}
+
+.section9 .third > a:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/sea.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/sea.jpg");
+}
+
+.section9 .fourth :first-child {
+  background-image: url("images/architecture_3.jpg");
+}
+
+.section9 .fourth :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/architecture_3.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/architecture_3.jpg");
+}
+
+.section9 .fourth :last-child {
+  background-image: url("images/arcitecture_4.jpg");
+}
+
+.section9 .fourth :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e2908e), to(#e98b897e)), url("images/arcitecture_4.jpg");
+  background-image: linear-gradient(0deg, #f0e2908e 0%, #e98b897e 100%), url("images/arcitecture_4.jpg");
+}
+
+.section10 {
+  margin-bottom: 100px;
+}
+
+.section10 .wrapper > .first {
+  width: auto;
+}
+
+.section10 .wrapper > .first > img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.section10 .wrapper div,
+.section10 .wrapper a {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  vertical-align: middle;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section10 .wrapper .second {
+  width: auto;
+}
+
+.section10 .wrapper .third {
+  width: 60%;
+  padding-right: 40px;
+}
+
+.section10 .wrapper .third > h6 {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  color: #333333;
+  font-style: normal;
+  position: relative;
+  padding-left: 70px;
+}
+
+.section10 .wrapper .third > h6::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.section10 .wrapper .fourth {
+  width: auto;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.section11 {
+  background-image: url("images/layer_mountains_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section11 .wrapper {
+  padding: 1px 0 1px 0;
+}
+
+.section11 h2 {
+  margin-top: 90px;
+}
+
+.section11 .top,
+.section11 .bottom {
+  text-align: left;
+  font-size: 0;
+  margin-bottom: 5rem;
+}
+
+.section11 .top .first,
+.section11 .top .second,
+.section11 .bottom .first,
+.section11 .bottom .second {
+  display: inline-block;
+  width: 50%;
+}
+
+.section11 .top .first :first-child,
+.section11 .top .second :first-child,
+.section11 .bottom .first :first-child,
+.section11 .bottom .second :first-child {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section11 .top .first :last-child,
+.section11 .top .second :last-child,
+.section11 .bottom .first :last-child,
+.section11 .bottom .second :last-child {
+  width: 70%;
+  display: inline-block;
+}
+
+.section11 .top h4,
+.section11 .bottom h4 {
+  font-family: "Montserrat";
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 0.9rem;
+}
+
+.section11 .top h5,
+.section11 .bottom h5 {
+  font-size: 15px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section11 .top h5::after,
+.section11 .bottom h5::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.section11 .top p,
+.section11 .bottom p {
+  font-size: 1rem;
+  color: #999999;
+  line-height: 1.5rem;
+}
+
+.section12 {
+  font-size: 0;
+}
+
+.section12 article {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  margin-right: 2%;
+  margin-bottom: 7.3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section12 article :last-child {
+  margin-right: 0;
+}
+
+.section12 article > a .photo img {
+  width: 100%;
+  height: auto;
+}
+
+.section12 article > a h3 {
+  font-size: 0.88rem;
+  font-family: "Montserrat";
+  color: #333333;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 1.15rem 0 1.15rem 0;
+}
+
+.section12 article > a > p {
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  border-bottom: #e5e5e5 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.section12 div:last-child a {
+  margin-right: 1rem;
+}
+
+.section12 div:last-child a img {
+  display: inline-block;
+}
+
+.section12 div:last-child a p {
+  font-size: 0.95rem;
+  display: inline-block;
+  margin-left: 0.3rem;
+  font-size: 0.95rem;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+}
+
+.map {
+  position: relative;
+  font-size: 0;
+}
+
+.map > img {
+  width: 100%;
+}
+
+.map a {
+  color: #f38181;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.map a img {
+  margin-bottom: 1rem;
+}
+
+.map a p {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 19px;
+}
+
+.map a p::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  height: 4px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+footer {
+  padding-top: 4.4rem;
+  background-color: #f8f8f8;
+}
+
+footer .wrapper {
+  text-align: left;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+footer .wrapper > div {
+  vertical-align: top;
+}
+
+footer .wrapper > div h3 {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+footer .wrapper .left {
+  display: inline-block;
+  width: 43%;
+  margin: 0 2% 0 0;
+}
+
+footer .wrapper .left a > h2 {
+  font-size: 2.875rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #cccccc;
+  margin-bottom: 2.125rem;
+}
+
+footer .wrapper .left p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  font-size: 0.94rem;
+  color: #999999;
+  margin-bottom: 3.125rem;
+}
+
+footer .wrapper .left a > h3 {
+  font-size: 1.12rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 2.4rem;
+}
+
+footer .wrapper .left a > h3 span {
+  font-size: 0.75rem;
+}
+
+footer .wrapper .left > div {
+  border-top: 1px #e5e5e5 solid;
+}
+
+footer .wrapper .left > div > div {
+  margin-top: 1.125rem;
+}
+
+footer .wrapper .left > div > div h4 {
+  width: auto;
+  font-size: 0.94rem;
+  font-style: italic;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+}
+
+footer .wrapper .left > div > div img {
+  width: auto;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+footer .wrapper .left form {
+  margin: 2.375rem 0 4.25rem 0;
+}
+
+footer .wrapper .left form input {
+  padding: 1rem;
+  border: solid 1px #e5e5e5;
+  width: 47%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #cccccc;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.94rem;
+}
+
+footer .wrapper .left form button {
+  background-color: #95e1d3;
+  color: white;
+  width: 30%;
+  border: 1px solid #95e1d3;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+footer .wrapper .center {
+  display: inline-block;
+  width: 30%;
+}
+
+footer .wrapper .center a > div {
+  padding: 1.1875rem 0 0.875rem 1.25rem;
+}
+
+footer .wrapper .center a > div h3 {
+  font-size: 0.75rem;
+  color: #333333;
+  line-height: 1.13rem;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+footer .wrapper .center a p {
+  font-size: 0.8125rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #999999;
+}
+
+footer .wrapper .center a img {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+}
+
+footer .wrapper .center a > div {
+  display: inline-block;
+  width: 60%;
+}
+
+footer .right {
+  display: inline-block;
+  width: 25%;
+}
+
+footer .right img {
+  display: inline-block;
+  max-width: 90px;
+}
+
+footer .right h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #333333;
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+footer a > p {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #333333;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  margin: 1.5rem 0;
+}
+
+footer a > p span {
+  color: #f38181;
+}
+
+@media (max-width: 1440px) {
+  header nav {
+    width: 80%;
+  }
+  .section1 .wrapper {
+    margin-bottom: 5rem;
+    width: 80%;
+  }
+  .section1 .wrapper > p {
+    margin-bottom: 3rem;
+  }
+  .section2 .wrapper a {
+    padding: 3rem;
+  }
+  .section2 .wrapper a h3 {
+    margin-bottom: 1rem;
+  }
+  .section2 .wrapper a p {
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1200px) {
+  header nav:nth-child(1) ul {
+    width: 70%;
+  }
+  header nav:nth-child(1) .logo {
+    width: 30%;
+  }
+  .section1 .wrapper a .team > img {
+    width: 12%;
+  }
+  .section1 .wrapper a .team h3 {
+    font-size: 1rem;
+  }
+  .section2 .wrapper {
+    width: 100%;
+  }
+  .section2 .wrapper a {
+    padding: 3rem;
+  }
+  .section2 .wrapper h3 {
+    font-size: 3.5rem;
+  }
+  .section2 .wrapper a:last-child {
+    border-right: none;
+  }
+  .section2 .wrapper a:nth-child(1) {
+    border-left: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  body .wrapper {
+    width: 90%;
+  }
+  body header nav {
+    width: 90%;
+  }
+  body header nav:nth-child(1) ul {
+    width: 75%;
+  }
+  body header nav:nth-child(1) .logo {
+    width: 25%;
+  }
+  body header nav:last-child a h3, body header nav:last-child a span {
+    font-size: 0.875rem;
+  }
+  body header #btn {
+    margin: 10vh auto 10vh;
+    border: 2px solid white;
+  }
+  body .section1 .wrapper {
+    width: 90%;
+    margin-bottom: 4rem;
+  }
+  body .section1 .wrapper a:hover {
+    -webkit-box-shadow: 5px 5px #95e1d3;
+            box-shadow: 5px 5px #95e1d3;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+  }
+  body .section1 .wrapper .team h3 {
+    font-size: 0.9rem;
+  }
+  .section2 .wrapper {
+    width: 100%;
+  }
+  .section2 .wrapper a {
+    vertical-align: top;
+    padding: 1.5rem;
+  }
+  .section2 .wrapper a h3 {
+    font-size: 2.5rem;
+  }
+  .section2 .wrapper a p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body a:hover {
+    cursor: auto;
+  }
+  body header nav:first-child {
+    margin: 0 auto 15vh;
+    text-align: left;
+  }
+  body header nav:first-child ul {
+    display: none;
+  }
+  body header nav:first-child > a:nth-child(1) {
+    display: inline-block;
+    width: 50%;
+  }
+  body header nav:first-child > a:nth-child(3) {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+  body header nav:first-child > a:nth-child(3):active {
+    -webkit-filter: brightness(0.7) sepia(2) hue-rotate(3deg) saturate(8);
+            filter: brightness(0.7) sepia(2) hue-rotate(3deg) saturate(8);
+  }
+  body header #btn {
+    cursor: auto;
+  }
+  body header #btn:active {
+    color: #fce38a;
+    border: 2px #fce38a solid;
+  }
+  body header nav:last-child a {
+    width: 21.25%;
+    margin-left: 5%;
+  }
+  body header nav:last-child a:hover {
+    opacity: 70%;
+  }
+  body header nav:last-child a:hover img:first-child {
+    display: none;
+  }
+  body header nav:last-child a:hover img:nth-child(2) {
+    display: block;
+  }
+  body header nav:last-child a:active {
+    opacity: 100%;
+  }
+  body header nav:last-child a:active img:first-child {
+    display: block;
+  }
+  body header nav:last-child a:active img:nth-child(2) {
+    display: none;
+  }
+  body header nav:last-child a span {
+    display: block;
+  }
+  body header nav:last-child a h3 span {
+    display: none;
+  }
+  body .section1 .wrapper a:active {
+    -webkit-box-shadow: 5px 5px #95e1d3;
+            box-shadow: 5px 5px #95e1d3;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+  }
+  body .section1 .wrapper a .team:active {
+    display: block;
+  }
+  body .section2 .wrapper a {
+    padding: 1rem 1rem;
+  }
+  body .section2 .wrapper a h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body .section2 .wrapper a h3 {
+    font-size: 1rem;
+  }
+  body .section2 .wrapper a p {
+    text-transform: lowercase;
+  }
+}
+/*# sourceMappingURL=style.css.map */
